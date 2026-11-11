@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Fracciones en el mercado ecuatoriano | 5.º EGB</title>
+<style>
+:root{--navy:#18346b;--blue:#236bc6;--cream:#fffaf0;--yellow:#ffe08c;--green:#1d8a59;--purple:#6d4ab8;--ink:#182640;--line:#dce4f2;--red:#be3b42}*{box-sizing:border-box}body{margin:0;color:var(--ink);font:17px/1.5 system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:linear-gradient(160deg,#dcefff 0%,#fff9e8 55%,#ffe7d6 100%);min-height:100vh}.wrap{max-width:1100px;margin:auto;padding:20px}header{background:var(--navy);color:#fff;border-radius:22px;padding:22px 25px;box-shadow:0 8px 24px #12304b2b}header h1{margin:0;font-size:clamp(1.65rem,4vw,2.6rem);line-height:1.2}header p{margin:.5rem 0 0;color:#fbe6a3}.row{display:flex;gap:16px;flex-wrap:wrap}.intro{display:flex;justify-content:space-between;gap:14px;align-items:center}.flag{font-size:2.1rem}.panel{background:white;border:2px solid #e0e8f1;border-radius:20px;padding:20px;box-shadow:0 6px 15px #233f6720}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}.stat{text-align:center;background:#fff;border:2px solid var(--line);padding:10px;border-radius:17px}.stat b{display:block;font-size:1.5rem;color:var(--navy)}main{display:grid;grid-template-columns:1fr 2fr;gap:16px}.side h2,.play h2{font-size:1.25rem;margin:0 0 8px}.side ol{padding-left:22px}.side li{margin:9px 0}.pill{background:#fff1cb;border-radius:14px;padding:10px;font-weight:650}.play{text-align:center;min-height:550px}.category{font-weight:700;color:#563f98;margin:0 0 6px}.market{margin:12px auto;background:linear-gradient(#f8f4eb,#fffaf2);border:2px solid #f0dfc6;border-radius:18px;padding:14px 10px;min-height:285px;display:flex;align-items:center;justify-content:center;flex-direction:column}.object{font-size:2.4rem}.fraction-grid{display:grid;gap:7px;margin:12px auto;max-width:370px;width:min(100%,360px)}.piece{min-height:72px;background:#fff;border:2px solid #8197ba;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:2.05rem;transition:background .12s}.piece.filled{background:#ffcb70;border-color:#b57913}.piece span{filter:drop-shadow(0 2px 1px #0001)}.legend{font-size:.9rem;color:#3b5277;margin:8px 0 0}.question{font-weight:800;font-size:1.3rem;margin:13px 0}.choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.choice{background:#fff;border:3px solid #99b9e9;border-radius:16px;color:#193867;min-height:78px;font-size:1.6rem;font-weight:850;cursor:pointer}.choice:hover{background:#ebf3ff}.choice.selected{border-color:#6d4ab8;background:#eee7ff;box-shadow:0 0 0 3px #d4c2ff}.frac{display:inline-flex;flex-direction:column;line-height:1.05;vertical-align:middle;align-items:center;min-width:1em}.frac .top{border-bottom:2px solid currentColor;width:100%;padding:0 5px 4px}.frac .bottom{padding-top:4px}.feedback{min-height:58px;border-radius:13px;padding:10px;margin:13px 0;font-weight:650;background:#f1f5fb;text-align:left}.feedback.ok{background:#e3f7eb;color:#116040}.feedback.no{background:#fff0e8;color:#913e22}.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:10px}button{font:inherit}button.action{padding:12px 18px;border:0;border-radius:13px;color:white;background:var(--blue);font-weight:800;cursor:pointer}button.action.secondary{background:#7c4caa}button.action.reset{background:#64748b}button:disabled{opacity:.5;cursor:not-allowed}button:focus-visible,a:focus-visible{outline:4px solid #e49a00;outline-offset:3px}.mini{font-size:.9rem}.progress{height:14px;background:#dbe5f3;border-radius:99px;overflow:hidden;margin:12px 0}.progress>div{height:100%;width:0;background:#36a677;transition:width .25s}.hidden{display:none!important}.finish h2{font-size:1.7rem}.badge{background:#ffecb5;border-radius:14px;padding:10px 16px;display:inline-block;font-weight:800}.license{margin:18px 0 0;border-top:2px solid #d6dfec;padding:18px 8px;text-align:center;color:#334766;font-size:.91rem}.license p{margin:7px auto}.license a{color:#184e97}#confetti{font-size:2.1rem}.tutorial{margin-top:12px;background:#eff5ff;padding:12px;border-radius:12px;text-align:left}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:760px){main{grid-template-columns:1fr}.side{order:2}.play{order:1}.stats{grid-template-columns:repeat(3,1fr)}.wrap{padding:12px}.piece{min-height:62px}.panel{padding:15px}.choice{min-height:70px}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="intro"><div><h1>🧺 Fracciones en el mercado ecuatoriano</h1><p>¡Aprende jugando! · Matemática · Quinto grado de Educación General Básica (Ecuador)</p></div><span class="flag" aria-label="Bandera de Ecuador">🇪🇨</span></div></header>
+<section class="stats" aria-label="Marcador"><div class="stat">Reto <b id="roundStat">1 / 12</b></div><div class="stat">Puntos <b id="scoreStat">0</b></div><div class="stat">Nivel <b id="levelStat">1 / 3</b></div></section>
+<main>
+<aside class="panel side"><h2>📋 ¿Cómo jugar?</h2><ol><li>Observa los productos del mercado y las partes <strong>coloreadas</strong>.</li><li>Cuenta las partes coloreadas y las partes totales.</li><li>Selecciona la fracción correspondiente.</li><li>Pulsa <strong>Comprobar</strong> para conocer el resultado.</li><li>Continúa hasta completar los 12 retos.</li></ol><div class="pill">⭐ Respuesta correcta al primer intento: 10 puntos. Puedes volver a intentar si te equivocas.</div><div class="tutorial"><strong>Recuerda:</strong> el <em>numerador</em> indica cuántas partes se colorean; el <em>denominador</em> indica en cuántas partes iguales se divide la unidad.</div><h2 style="margin-top:18px">🎯 Aprendizaje</h2><p>Representar, reconocer y comparar fracciones sencillas en situaciones cotidianas.</p><p class="mini"><strong>Niveles:</strong> 1. Mitades y cuartos · 2. Otras fracciones · 3. Fracciones equivalentes.</p></aside>
+<section class="panel play" aria-label="Juego de fracciones"><div id="game"><p class="category" id="category">Nivel 1 · Reconozco fracciones</p><div class="progress" aria-label="Progreso"><div id="progressBar"></div></div><h2 id="sceneTitle">Observa los productos</h2><div class="market"><div class="object" id="productEmoji">🍌</div><div id="fractionGrid" class="fraction-grid" role="img" aria-label="Partes coloreadas de una unidad dividida en partes iguales"></div><p class="legend" id="sceneCaption">Las casillas representan partes iguales de una unidad.</p></div><p id="question" class="question">¿Qué fracción está coloreada?</p><div id="choices" class="choices" role="group" aria-label="Opciones de respuesta"></div><div class="feedback" id="feedback" aria-live="polite">Selecciona una respuesta y pulsa «Comprobar».</div><div class="actions"><button class="action" id="checkBtn" disabled>✓ Comprobar</button><button class="action secondary hidden" id="nextBtn">Siguiente reto →</button><button class="action reset" id="resetBtn">↻ Reiniciar</button></div></div><div class="finish hidden" id="finish"><div id="confetti">🎉 🏆 🎉</div><h2>¡Felicitaciones, completaste el mercado!</h2><p>Terminaste los 12 retos de fracciones.</p><p class="badge" id="finalScore">Puntuación: 0 / 120</p><p id="finalSummary"></p><div class="actions"><button class="action" id="playAgain">Jugar otra vez</button></div></div></section>
+</main>
+<footer class="license"><p><strong>Autora:</strong> Orfa Beatriz Paccha Alverca · © 2026</p><p>Recurso educativo original: <strong>Fracciones en el mercado ecuatoriano</strong>.</p><p><strong>Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</strong> · Se permite copiar, compartir y adaptar dando crédito a la autora, sin fines comerciales y compartiendo las adaptaciones bajo la misma licencia.</p><p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener noreferrer">Consultar los términos completos de la licencia</a> (este enlace requiere internet; el simulador no).</p><p>✅ Funciona sin conexión · Sin bibliotecas externas · No recopila datos personales</p></footer>
+</div>
+<script>
+'use strict';
+// Todos los recursos están incluidos en este único archivo: no se requiere internet.
+const questions = [
+ {item:'🍌',thing:'Los plátanos',n:1,d:2,options:[[1,2],[1,4],[2,3]],level:1},
+ {item:'🍊',thing:'Las naranjas',n:1,d:4,options:[[1,3],[1,4],[3,4]],level:1},
+ {item:'🍅',thing:'Los tomates',n:3,d:4,options:[[2,4],[3,4],[1,4]],level:1},
+ {item:'🌽',thing:'El maíz',n:2,d:4,options:[[2,4],[1,4],[3,4]],level:1},
+ {item:'🥑',thing:'Los aguacates',n:2,d:3,options:[[1,3],[2,3],[3,4]],level:2},
+ {item:'🍓',thing:'Las fresas',n:3,d:5,options:[[2,5],[3,5],[3,6]],level:2},
+ {item:'🥔',thing:'Las papas',n:5,d:6,options:[[5,6],[4,6],[5,8]],level:2},
+ {item:'🍍',thing:'La piña',n:3,d:8,options:[[3,6],[5,8],[3,8]],level:2},
+ {item:'🍉',thing:'La sandía',n:2,d:4,options:[[1,2],[1,4],[3,4]],level:3,equiv:true},
+ {item:'🥕',thing:'Las zanahorias',n:4,d:8,options:[[1,4],[1,2],[3,4]],level:3,equiv:true},
+ {item:'🥭',thing:'Los mangos',n:2,d:6,options:[[1,3],[1,2],[2,3]],level:3,equiv:true},
+ {item:'🍎',thing:'Las manzanas',n:3,d:6,options:[[1,3],[2,3],[1,2]],level:3,equiv:true}
+];
+let index=0,score=0,selected=null,answered=false,errors=0;
+const $=id=>document.getElementById(id);
+const fractionHTML=(n,d)=>`<span class="frac" aria-label="${n} de ${d}"><span class="top">${n}</span><span class="bottom">${d}</span></span>`;
+function gcd(a,b){while(b){[a,b]=[b,a%b]}return a}
+function same(a,b){return a[0]*b[1]===b[0]*a[1]}
+function render(){
+ const q=questions[index];selected=null;answered=false;errors=0;
+ $('game').classList.remove('hidden');$('finish').classList.add('hidden');
+ $('roundStat').textContent=`${index+1} / ${questions.length}`;$('scoreStat').textContent=score;$('levelStat').textContent=`${q.level} / 3`;
+ $('progressBar').style.width=`${index/questions.length*100}%`;
+ $('category').textContent=['','Nivel 1 · Reconozco mitades y cuartos','Nivel 2 · Reconozco otras fracciones','Nivel 3 · Descubro fracciones equivalentes'][q.level];
+ $('sceneTitle').textContent=q.thing+' del mercado';$('productEmoji').textContent=q.item;
+ const grid=$('fractionGrid');grid.innerHTML='';grid.style.gridTemplateColumns=`repeat(${q.d===2?2:q.d===3?3:q.d===5?5:q.d===6?3:4}, minmax(0,1fr))`;
+ for(let i=0;i<q.d;i++){const cell=document.createElement('div');cell.className='piece'+(i<q.n?' filled':'');cell.innerHTML=`<span aria-hidden="true">${i<q.n?q.item:'·'}</span>`;grid.appendChild(cell)}
+ grid.setAttribute('aria-label',`${q.n} de ${q.d} partes iguales están coloreadas`);
+ $('sceneCaption').textContent=`Una unidad dividida en ${q.d} partes iguales. Las partes amarillas están coloreadas.`;
+ $('question').textContent=q.equiv?'¿Cuál de estas fracciones es EQUIVALENTE a la parte coloreada?':'¿Qué fracción de la unidad está coloreada?';
+ const choices=$('choices');choices.innerHTML='';q.options.forEach((f,i)=>{const b=document.createElement('button');b.className='choice';b.type='button';b.innerHTML=fractionHTML(f[0],f[1]);b.setAttribute('aria-label',`${f[0]} sobre ${f[1]}`);b.onclick=()=>selectChoice(i);choices.appendChild(b)});
+ $('feedback').textContent='Selecciona una fracción y pulsa «Comprobar». Será más fácil si cuentas primero las partes de la figura.';$('feedback').className='feedback';
+ $('checkBtn').disabled=true;$('checkBtn').classList.remove('hidden');$('nextBtn').classList.add('hidden');
+}
+function selectChoice(i){if(answered)return;selected=i;[...$('choices').children].forEach((el,j)=>{el.classList.toggle('selected',j===i);el.setAttribute('aria-pressed',String(j===i))});$('checkBtn').disabled=false}
+function check(){if(selected===null||answered)return;const q=questions[index],f=q.options[selected];
+ if(same(f,[q.n,q.d])){answered=true;let gain=errors===0?10:5;score+=gain;$('scoreStat').textContent=score;
+ $('feedback').className='feedback ok';$('feedback').innerHTML=`✅ ¡Correcto! ${q.n} de ${q.d} partes están coloreadas. ${q.equiv?`La fracción ${q.n}/${q.d} se simplifica a ${q.n/gcd(q.n,q.d)}/${q.d/gcd(q.n,q.d)}.`:`El numerador es ${q.n} y el denominador es ${q.d}.`} +${gain} puntos.`;
+ $('checkBtn').classList.add('hidden');$('nextBtn').classList.remove('hidden');[...$('choices').children].forEach(b=>b.disabled=true);
+ }else{errors++;selected=null;$('feedback').className='feedback no';$('feedback').textContent=q.equiv?`💡 Aún no. Busca una fracción que represente la misma cantidad. Pista: divide numerador y denominador entre un mismo número.`:`💡 Intenta otra vez. Cuenta las ${q.d} partes iguales y observa cuántas están amarillas.`;$('checkBtn').disabled=true;[...$('choices').children].forEach(b=>{b.classList.remove('selected');b.setAttribute('aria-pressed','false')})}
+}
+function next(){if(!answered)return;index++;if(index===questions.length){finish()}else render()}
+function finish(){ $('game').classList.add('hidden');$('finish').classList.remove('hidden');$('progressBar').style.width='100%';$('roundStat').textContent='12 / 12';$('finalScore').textContent=`Puntuación: ${score} / 120`; $('finalSummary').textContent=score>=100?'¡Excelente! Dominas las representaciones de fracciones.':score>=75?'¡Buen trabajo! Sigue practicando para mejorar.':'¡Terminaste! Puedes volver a jugar y fortalecer tus conocimientos.' }
+function reset(){index=0;score=0;render()}
+$('checkBtn').addEventListener('click',check);$('nextBtn').addEventListener('click',next);$('resetBtn').addEventListener('click',reset);$('playAgain').addEventListener('click',reset);render();
+</script>
+</body>
+</html>
